@@ -1,0 +1,55 @@
+.GCard {
+    margin-top: 100px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gcard__name {
+    color: #c79c60;
+    font-size: 30px;
+    font-family: 'Damion', cursive;
+}
+
+.gcard__text {
+    color: #333;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.gcard__texts {
+    color: #333333;
+    font-size: 15px;
+    width: 700px;
+}
+
+.gcard__btn {
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.gcard__btn-text {
+    color: #c79c60;
+    padding: 5.5% 40px;
+    display: grid;
+    position: absolute;
+    text-align: center;
+    justify-content: centers;
+    text-transform: uppercase;
+}
+
+.gcard__btn:hover .gcard__btn-text {
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    color: white;
+}
+
+.gcard__imeg{
+    margin-top: -50px;
+    border: 9px solid white;
+    border-radius: 50%;
+}

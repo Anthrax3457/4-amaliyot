@@ -1,0 +1,87 @@
+.daily {
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+}
+
+.daily__container {
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daily__name {
+    color: #c79c60;
+    font-size: 30px;
+    font-family: 'Damion', cursive;
+}
+
+.daily__content {
+    margin-top: 60px;
+    gap: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.daily__hr {
+    margin-top: 7px;
+    border: none;
+    height: 1px;
+    width: 700px;
+    background: #c79c60;
+}
+
+.daily__title {
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #333;
+    width: 600px;
+}
+
+.daily__texts {
+    margin-left: 9%;
+    margin-top: 4%;
+}
+
+.daily__text {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.daily__num {
+    color: #c79c60;
+    margin: 1px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.daily__btn {
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.daily__btn-text {
+    color: #c79c60;
+    padding: 5.5% 40px;
+    display: grid;
+    position: absolute;
+    text-align: center;
+    justify-content: centers;
+    text-transform: uppercase;
+}
+
+.daily__btn:hover .daily__btn-text {
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    color: white;
+}
+
+.daily__imeg {
+    margin-top: -50px;
+    border: 9px solid white;
+    border-radius: 50%;
+}

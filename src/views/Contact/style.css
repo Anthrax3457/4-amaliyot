@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Dosis:wght@200;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Damion&family=Dosis:wght@200;700&family=Gideon+Roman&family=Poppins&display=swap');
+
+
+.contact__section {
+    background-color: #e4e4e4;
+    height: 1700px;
+}
+
+.contact {
+    position: absolute;
+    height: 880px;
+    width: 100%;
+    background: #282726;
+}
+
+.contact__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contact__image {
+    width: 330px;
+    vertical-align: middle;
+}
+
+.contact__img {
+    margin-top: 2%;
+    height: 100%;
+    width: 70px;
+}
+
+.contact__title-content {
+    color: #FFF9F0;
+    margin-top: -180px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__title {
+    font-family: 'Damion', cursive;
+    font-size: 62px;
+}
+
+.contact-text-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact__text {
+    font-weight: 400;
+    font-family: 'Gideon Roman', serif;
+    font-size: 58px;
+    color: #c79c60;
+    text-transform: uppercase;
+}
+
+.contact__texts {
+    color: #949494;
+    font-size: 14px;
+    text-align: start;
+    width: 650px;
+}
+
+.contact__btn {
+    display: grid;
+    margin-left: 15%;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.contact__btn-text {
+    color: #c79c60;
+    padding: 5.5% 44px;
+    display: grid;
+    position: absolute;
+    text-align: center;
+    justify-content: centers;
+    text-transform: uppercase;
+}
+
+.contact__btn-img {}
+
+.contact__table {
+    margin-top: 50px;
+}
+
+.contact__btn:hover .contact__btn-text {
+    -webkit-transition: all 0.2s ease;
+    color: white;
+}

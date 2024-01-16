@@ -1,0 +1,82 @@
+.inputs__sections {
+    margin-top: 130px;
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.inputs__container {
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    align-items: start;
+}
+
+.inputs__inps {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs_inps {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs__title {
+    font-size: 30px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.inputs__inp {
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #c79c60;
+    border-radius: 7px;
+    padding: 5px 12px;
+    font-size: 14px;
+    width: 450px;
+}
+
+.inputs__textarea {
+    border: 1px solid #c79c60;
+    border-radius: 7px;
+    padding: 5px 14px;
+    width: 450px;
+}
+
+.map__container {
+    border-radius: 10px;
+    width: 450px;
+    height: 370px;
+    border: 4px solid white;
+}
+
+.input__btn {
+    display: grid;
+    justify-content: center;
+    margin-top: 370px;
+    position: absolute;
+}
+
+.input__btn-text {
+    color: #c79c60;
+    padding: 5.5% 45px;
+    display: grid;
+    position: absolute;
+    text-align: center;
+    justify-content: centers;
+    text-transform: uppercase;
+}
+
+
+.input__btn:hover .input__btn-text {
+    -webkit-transition: all 0.2s ease;
+    color: white;
+}
