@@ -39,7 +39,7 @@
     margin-bottom: 15px;
     border: 1px solid #c79c60;
     border-radius: 7px;
-    padding: 5px 12px;
+    padding: 6px 12px;
     font-size: 14px;
     width: 450px;
 }
@@ -67,7 +67,7 @@
 
 .input__btn-text {
     color: #c79c60;
-    padding: 5.5% 40px;
+    padding: 5.5% 30px;
     display: grid;
     position: absolute;
     text-align: center;
@@ -90,16 +90,19 @@
 
     .inputs__textarea,
     .inputs__inp {
-        width: 650px;
+        width: 700px;
     }
 
     .map__container {
-        width: 650px;
+        width: 700px;
         margin-top: 50px;
     }
 }
 
 @media screen and (max-width:425px) {
+    .inputs__sections{
+        margin-top: 90px;
+    }
     .inputs__container {
         display: grid;
     }

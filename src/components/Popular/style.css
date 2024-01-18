@@ -17,7 +17,7 @@
 }
 
 .popular__container {
-    gap: 70px;
+    gap: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
     margin-top: 7px;
     border: none;
     height: 1px;
-    width: 630px;
+    width: 640px;
     background: #c79c60;
 }
 
@@ -132,7 +132,8 @@
 @media screen and (max-width:777px) {
     .data{
         display: grid;
-        gap: 120px;
+        gap: 50px;
+        justify-content: space-around;
         grid-template-columns: auto auto;
     }
     .popular__hrr{
@@ -143,6 +144,12 @@
     }
 }
 @media screen and (max-width:425px) {
+    .gcard__imeg{
+        margin-left: -2rem;
+    }
+    .popular__section{
+        margin-top: 40rem;
+    }
     .data{
         display: grid;
         gap: 40px;

@@ -49,7 +49,7 @@
     text-align: center;
 }
 .contact__text {
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Gideon Roman', serif;
     font-size: 58px;
     color: #c79c60;
@@ -64,7 +64,7 @@
 }
 .contact__btn {
     display: grid;
-    margin-left: 14%;
+    margin-left: 22rem;
     justify-content: center;
     margin-top: 35px;
     position: absolute;
@@ -116,6 +116,9 @@
 
 
 @media screen and (max-width:425px) {
+    .contact{
+        height: 740px;
+    }
     .contact__title-content {
         margin-top: 80px;
     }
@@ -124,6 +127,9 @@
     }
     .contact__section {
         height: 1800px;
+    }
+    .contact__table{
+        margin-top: 140px;
     }
 
     .contact__image{

@@ -61,7 +61,7 @@
 }
 
 .home__text {
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Gideon Roman', serif;
     font-size: 58px;
     color: #c79c60;
@@ -78,7 +78,7 @@
 
 .home__btn {
     display: grid;
-    margin-left: 14%;
+    margin-left: 22rem;
     justify-content: center;
     margin-top: 35px;
     position: absolute;

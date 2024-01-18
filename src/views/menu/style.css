@@ -34,7 +34,7 @@
 .menu__title-content {
     color: #FFF9F0;
     margin-top: -130px;
-    gap: 10px;
+    gap: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +50,7 @@
     text-align: center;
 }
 .menu__text {
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Gideon Roman', serif;
     font-size: 58px;
     color: #c79c60;
@@ -65,7 +65,7 @@
 }
 .menu__btn {
     display: grid;
-    margin-left: 14%;
+    margin-left: 22rem;
     justify-content: center;
     margin-top: 35px;
     position: absolute;

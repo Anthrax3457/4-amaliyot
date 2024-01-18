@@ -1,4 +1,5 @@
 .GCard {
+    margin-left: 3rem;
     margin-top: 100px;
     display: flex;
     gap: 60px;

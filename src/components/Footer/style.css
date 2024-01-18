@@ -82,9 +82,11 @@
 }
 
 .footer__social-icon {
+    border-radius: 2px;
+    font-size: 20px;
     color: #fff;
     background-color: #505050;
-    width: 50px;
+    width: 40px;
     padding: 10px;  
     display: flex;
     gap: 30px;
@@ -136,16 +138,17 @@
 }
 @media screen and (max-width:425px) {
     .footer-about__container {
-        width: 180px;
-        text-align: justify;
+        width: 280px;
+        text-align: start;
     
     }
     .footer__container{
-        height: 900px;
+        padding: 0;
+        height: 820px;
     }
     
     .footer-social__container {
-        width: 150px;
+        width: 290px;
     
     }
 }

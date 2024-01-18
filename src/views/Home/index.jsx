@@ -12,6 +12,7 @@ import Special from '../../components/special'
 import Daily from '../../components/daily'
 
 const Home = () => {
+
   return (
     <section className='home__section'>
       <div className='home'>

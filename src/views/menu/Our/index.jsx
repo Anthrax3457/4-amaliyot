@@ -79,9 +79,9 @@ const Our = () => {
                     {menudata.map((item, index) => {
                         return (
                             <div key={index} className="ourmenudata__container">
-                                <div className='grid justify-center gap-10 text-center items-center'>
+                                <div className='grid md:flex justify-center gap-10 text-center items-center'>
                                     <div className='our__image-content'>
-                                        <div className='grid justify-center'>
+                                        <div className='grid md:flex justify-center'>
                                             <img className='our__image' src={item.img} alt="" />
                                         </div>
                                     </div>

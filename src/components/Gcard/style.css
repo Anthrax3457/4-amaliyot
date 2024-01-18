@@ -78,6 +78,10 @@
     }
 }
 @media screen and (max-width:425px) {
+    .gcard__container{
+        margin-top: -5rem;
+        margin-left: -3rem;
+    }
     .GCard{
         display: grid;
         margin-bottom: 300px;

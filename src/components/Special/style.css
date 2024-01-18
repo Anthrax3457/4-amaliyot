@@ -6,7 +6,7 @@
 }
 
 .special__container {
-    gap: 70px;
+    gap: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     margin-top: 7px;
     border: none;
     height: 1px;
-    width: 630px;
+    width: 650px;
     background: #c79c60;
 }
 
@@ -146,11 +146,13 @@
 @media screen and (max-width:777px) {
     .special__content{
         display: grid;
+        margin-left: -1rem;
     }
     .special__hr{
-        width: 400px;
+        width: 430px;
     }
     .special__img-content{
+        gap: 10px;
         margin-top: 20px;
     }
     .two__container{
@@ -158,14 +160,14 @@
     }
     .four__container{
         margin-top: 122px;
-        margin-left: 211px;
+        margin-left: 191px;
     }
     .third__container{
         margin-top: 122px;
     }
 
 }
-@media screen and (max-width:777px) {
+@media screen and (max-width:425px) {
     .special__content{
         display: grid;
     }
@@ -191,9 +193,9 @@
         width: 200px;
     }
     .four__container{
-        width: 104px;
+        width: 103px;
         margin-top: 49px;
-        margin-left: 160px;
+        margin-left: 139px;
     }
     .four__text{
         width: 100px;

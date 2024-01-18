@@ -6,9 +6,6 @@ import det from '../../assets/images/tm-brown-button.png'
 import line from '../../assets/images/header-line.png'
 import HomeImage from '../../assets/images/light.png'
 import Table from '../../assets/images/table-set.png'
-// import GCard from '../Gcard'
-import GCard from '../menu/Gcard'
-import Our from '../menu/our'
 import Input from './input/inddex'
 
 

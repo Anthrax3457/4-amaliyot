@@ -18,7 +18,7 @@ const Input = () => {
                     <input type="text" name="" id="" placeholder='SUBJECT' className="inputs__inp focus:border-[2px] border-[#c79c60] active:border-[#c79c60]" />
                     <textarea name="" id="" cols="10" placeholder='MESSAGE' className='inputs__textarea focus:border-[2px] border-[#c79c60] active:border-[#c79c60]' rows="5"></textarea>
                     <div className='input__btn'>
-                        <p className='input__btn-text'>Send Messae</p>
+                        <p className='input__btn-text'>Send Message</p>
                         <img className='input__btn-img' src={det} alt="" />
                     </div>
                 </div>
