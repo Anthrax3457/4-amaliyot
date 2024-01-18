@@ -113,7 +113,11 @@
     .today {
         height: 756px;
     }
+    .today__title{
+        margin-left: -1rem;
+    }
     .today__title-content{
+        gap: 30px;
         margin-top: -80px;
     }
 }
@@ -122,13 +126,15 @@
 @media screen and (max-width:425px) {
     
     .today__title-content {
-        margin-top: 80px;
+        gap: 0;
+        margin-top: -150px;
     }
     .today__title{
-        width: 200px;
+        line-height: 1.1;
+        width: 180px;
     }
     .today__section {
-        height: 5190px;
+        height: 5240px;
     }
 
     .today__image{
@@ -147,17 +153,23 @@
         font-size: 40px;
     }
     .today__img{
-        margin-top: 2rem;
+        margin-top: 1rem;
         width: 30px;
     }
     .today__text{
+        margin-top: 0rem;
+        line-height: 1.1;
         text-align: center;
         width: 300px;
     }
     .today__texts{
+        margin-top: 1rem;
         width: 270px;
     }
     .today__btn {
         margin-left: 5rem;
+    }
+    .today{
+        height: 800px;
     }
 }

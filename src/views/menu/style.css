@@ -118,14 +118,18 @@
 
 
 @media screen and (max-width:425px) {
+    .menu__imagee{
+        width: 220px;
+    }
     .menu__title-content {
-        margin-top: 80px;
+        gap: 0px;
+        margin-top: -130px;
     }
     .menu__title{
         width: 200px;
     }
     .menu__section {
-        height: 4350px;
+        height: 4440px;
     }
 
     .menu__image{
@@ -145,13 +149,21 @@
         width: 30px;
     }
     .menu__text{
+        line-height: 1.1;
         text-align: center;
         width: 300px;
     }
     .menu__texts{
+        margin-top: 1rem;
         width: 270px;
     }
     .menu__btn {
         margin-left: 4rem;
+    }
+    .menu__table{
+        margin-top: 100px;
+    }
+    .menu{
+        height: 750px;
     }
 }

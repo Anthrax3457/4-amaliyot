@@ -71,10 +71,10 @@
 
 @media screen and (max-width:777px) {
     .GCard{
-        gap: 40px;
+        gap: 30px;
     }
     .gcard__texts {
-        width: 500px !important;
+        width: 480px !important;
     }
 }
 @media screen and (max-width:425px) {
@@ -87,7 +87,7 @@
         margin-bottom: 300px;
     }
     .gcard__texts {
-        width: 300px !important;
+        width: 293px !important;
     }
     .Gcard__image-content{
         position: absolute;

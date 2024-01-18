@@ -42,7 +42,7 @@
 .home__title-content {
     color: #FFF9F0;
     margin-top: -130px;
-    gap: 10px;
+    gap: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +51,7 @@
 .home__title {
     font-family: 'Damion', cursive;
     font-size: 57px;
+    margin-left: -1rem;
 }
 
 .home-text-content {
@@ -151,6 +152,7 @@
         text-align: center;
     }
     .home__title{
+        line-height: 1.1;
         font-size: 40px;
     }
     .home__img{
@@ -158,13 +160,19 @@
         width: 30px;
     }
     .home__text{
+        margin-top: 1rem;
+        line-height: 1.1;
         text-align: center;
         width: 300px;
     }
     .home__texts{
+        margin-top: 1rem;
         width: 270px;
     }
+    .home__table{
+        margin-top: 100px;
+    }
     .home__btn {
-        margin-left: 4rem;
+        margin-left: 5rem;
     }
 }

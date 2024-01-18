@@ -38,7 +38,7 @@
     font-size: 14px;
     margin-bottom: 15px;
     border: 1px solid #c79c60;
-    border-radius: 7px;
+    border-radius: 9px;
     padding: 6px 12px;
     font-size: 14px;
     width: 450px;
@@ -46,7 +46,7 @@
 
 .inputs__textarea {
     border: 1px solid #c79c60;
-    border-radius: 7px;
+    border-radius: 9px;
     padding: 5px 14px;
     width: 450px;
 }
@@ -90,18 +90,18 @@
 
     .inputs__textarea,
     .inputs__inp {
-        width: 700px;
+        width: 720px;
     }
 
     .map__container {
-        width: 700px;
+        width: 720px;
         margin-top: 50px;
     }
 }
 
 @media screen and (max-width:425px) {
     .inputs__sections{
-        margin-top: 90px;
+        margin-top: 70px;
     }
     .inputs__container {
         display: grid;

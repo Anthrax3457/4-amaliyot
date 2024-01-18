@@ -1,5 +1,5 @@
 .GCard {
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
     margin-top: 100px;
     display: flex;
     gap: 60px;
@@ -53,4 +53,12 @@
     margin-top: -50px;
     border: 9px solid white;
     border-radius: 50%;
+}
+@media screen and (max-width: 425px) {
+  .GCard{
+    margin-left: 2.5rem;
+  }
+  .gcard__texts{
+    width: 290px;
+  }
 }

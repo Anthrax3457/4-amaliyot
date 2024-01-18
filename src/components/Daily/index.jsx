@@ -4,7 +4,7 @@ import './style.css'
 // images
 import menuBoard from '../../assets/images/menu-board.png'
 import det from '../../assets/images/tm-brown-button.png'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/favicon.ico'
 
 
 const Daily = () => {
@@ -12,7 +12,7 @@ const Daily = () => {
     <div className='daily'>
       <div className="daily__container">
         <div className='flex gap-4 justify-start md:justify-center items-center'>
-          <img className='w-14 h-14' src={logo} alt="" />
+          <img className='w-14 h-16' src={logo} alt="" />
           <p className="daily__name"> Daily Menu</p>
         </div>
         <hr className="daily__hr" />

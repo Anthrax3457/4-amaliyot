@@ -132,7 +132,7 @@
 @media screen and (max-width:777px) {
     .data{
         display: grid;
-        gap: 50px;
+        gap: 70px;
         justify-content: space-around;
         grid-template-columns: auto auto;
     }

@@ -111,6 +111,10 @@
     }
     .contact__title-content{
         margin-top: -80px;
+        gap: 30px;
+    }
+    .contact__title{
+      margin-left: -1rem;
     }
 }
 
@@ -120,16 +124,20 @@
         height: 740px;
     }
     .contact__title-content {
-        margin-top: 80px;
+        margin-top: -80px;
+        gap: 0;
     }
     .contact__title{
         width: 200px;
     }
     .contact__section {
-        height: 1800px;
+        height: 1760px;
     }
     .contact__table{
         margin-top: 140px;
+    }
+    .contact__imagee{
+        width: 220px;
     }
 
     .contact__image{
@@ -149,10 +157,12 @@
         width: 30px;
     }
     .contact__text{
+        line-height: 1.1;
         text-align: center;
         width: 300px;
     }
     .contact__texts{
+        margin-top: 1rem;
         width: 270px;
     }
     .contact__btn {

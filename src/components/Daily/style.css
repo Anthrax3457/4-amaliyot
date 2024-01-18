@@ -88,13 +88,13 @@
 }
 @media screen and (max-width:777px) {
     .daily__hr{
-        width: 480px;
+        width: 475px;
     }
     .daily__container{
-        gap: 40px;
+        gap: 70px;
     }
     .daily__content{
-        margin-left: -2rem;
+        margin-left: 1rem;
         display: grid;
         justify-content: start;
     }

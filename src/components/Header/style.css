@@ -112,12 +112,12 @@
         display: block;
         cursor: pointer;
         color: #c79c60;
-        font-size: 30px;
+        font-size: 40px;
         position: fixed;
         top: 15px;
         right: 15px;
         background-color: rgba(0,0,0,0.6);
-        padding: 6px 15px;
+        padding: 7px 15px;
         z-index: 1000;
     }
 }

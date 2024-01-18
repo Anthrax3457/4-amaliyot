@@ -16,7 +16,7 @@ const Special = () => {
       <div className='today'>
         <div className='today__container'>
           <div className='today__image-container'>
-            <img className='today__image' src={HomeImage} alt="" />
+            <img className='today__imagee' src={HomeImage} alt="" />
             <img className='today__image' src={HomeImage} alt="" />
             <img className='today__image' src={HomeImage} alt="" />
           </div>

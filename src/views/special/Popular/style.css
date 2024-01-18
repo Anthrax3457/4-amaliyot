@@ -131,6 +131,9 @@
 }
 
 @media screen and (max-width:777px) {
+    .populars__section{
+        margin-top: 90px;
+    }
     .datas {
         display: grid;
         padding: 0px 30px;
@@ -153,7 +156,7 @@
     .datas {
         display: grid;
         justify-content: center;
-        gap: 40px;
+        gap: 60px;
         grid-template-columns: auto;
     }
 
