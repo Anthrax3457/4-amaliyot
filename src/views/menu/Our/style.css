@@ -1,5 +1,5 @@
 .our__container {
-    margin-top: 200px;
+    margin-top: 180px;
     gap: 40px;
     display: flex;
     justify-content: center;
@@ -71,7 +71,7 @@
 
 .ourmenudata__container {
     width: 630px;
-    padding: 16px;
+    padding: 19px 16px;
     background-color: #fff;
     gap: 30px;
     justify-content: center;
@@ -81,7 +81,7 @@
 
 .our__image {
     width: 350px;
-    height: 130px;
+    height: 128px;
 }
 
 .our__texts-content {
@@ -103,7 +103,7 @@
 }
 
 .our__text {
-    text-align:justify;
+    text-align: justify;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -155,6 +155,7 @@
 
 .ourmenudata__container:hover {
     cursor: pointer;
+
     .our__summ {
         color: #c79c60;
     }
@@ -174,4 +175,81 @@
     .our__id {
         color: #c79c60;
     }
+}
+
+@media screen and (max-width:777px) {
+    .vertical__bg {
+        width: 430px;
+        margin-left: -18.2rem;
+    }
+
+    .our__content {
+        padding: 0px 20px;
+        display: grid;
+        justify-content: start;
+    }
+
+    .our__hr {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .vertical__bg {
+        width: 260px;
+        margin-left: -18px;
+    }
+
+    .our__content {
+        padding: 0px 20px;
+        display: grid;
+        justify-content: start;
+    }
+
+    .our__container {
+        display: grid;
+    }
+
+    .our__hr {
+        width: 300px;
+    }
+
+    .ourmenudata__container {
+        width: 280px;
+        display: grid;
+        /* gap: 10px; */
+        /* padding: 19px 16px; */
+        background-color: #fff;
+        /* gap: 30px; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our__image {
+        width: 130px;
+        height: 130px;
+    }
+
+    .our__text {
+        width: 230px;
+        text-align: center;
+    }
+
+    .our__sum-container {
+        height: 100px;
+        width: 100px;
+    }
+
+    .our__sum-content {
+        width: 88px;
+        height: 88px;
+    }
+
+    .our__texts-content {
+        display: flex;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+  
 }

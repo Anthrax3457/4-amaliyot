@@ -1,7 +1,15 @@
 import React from 'react'
 // style
 import './style.css'
+// react-router-dom
 import { Link } from 'react-router-dom'
+// react-icons
+import { TfiYoutube } from "react-icons/tfi";
+import { ImFacebook } from "react-icons/im";
+import { IoLogoTwitter } from "react-icons/io5";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { BsBehance } from "react-icons/bs";
+
 
 const Footer = () => {
   return (
@@ -29,23 +37,25 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className='footer-about__container'>
-            <p className='footer__about-name'>About Us</p>
-            <div className="footer__about">
-              <p className="footer__about-item">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
-              <p className="footer__about-item">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+          <div className='about__special'>
+            <div className='footer-about__container'>
+              <p className='footer__about-name'>About Us</p>
+              <div className="footer__about">
+                <p className="footer__about-item">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+                <p className="footer__about-item">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+              </div>
             </div>
-          </div>
-          <div className='footer-social__container'>
-            <p className='footer__social-name'>Get Social</p>
-            <div className="footer__social">
-              <p className="footer__social-item">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
-              <div className='footer-icon'>
-                <div className="footer__social-icon">f</div>
-                <div className="footer__social-icon">f</div>
-                <div className="footer__social-icon">f</div>
-                <div className="footer__social-icon">f</div>
-                <div className="footer__social-icon">f</div>
+            <div className='footer-social__container'>
+              <p className='footer__social-name'>Get Social</p>
+              <div className="footer__social">
+                <p className="footer__social-item">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
+                <div className='footer-icon'>
+                  <div className="footer__social-icon"><ImFacebook /></div>
+                  <div className="footer__social-icon"><IoLogoTwitter /></div>
+                  <div className="footer__social-icon"><FaLinkedinIn /></div>
+                  <div className="footer__social-icon"><TfiYoutube /></div>
+                  <div className="footer__social-icon"><BsBehance /></div>
+                </div>
               </div>
             </div>
           </div>

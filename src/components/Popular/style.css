@@ -17,7 +17,7 @@
 }
 
 .popular__container {
-    gap: 30px;
+    gap: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +29,11 @@
     font-family: 'Damion', cursive;
 }
 
-.popular__hr {
+.popular__hrr {
     margin-top: 7px;
     border: none;
     height: 1px;
-    width: 700px;
+    width: 630px;
     background: #c79c60;
 }
 
@@ -127,5 +127,36 @@
     .data__icon-text {
         border: 2px solid #c79c60;
         color: #c79c60;
+    }
+}
+@media screen and (max-width:777px) {
+    .data{
+        display: grid;
+        gap: 120px;
+        grid-template-columns: auto auto;
+    }
+    .popular__hrr{
+        width: 450px;
+    }
+    .popular__container{
+        gap: 50px;
+    }
+}
+@media screen and (max-width:425px) {
+    .data{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto ;
+    }
+    .popular__hrr{
+        width: 280px;
+    }
+    .popular__name{
+        display: grid;
+        justify-content: start;
+    }
+    .popular__container{
+        display: grid;
+        gap: 10px;
     }
 }

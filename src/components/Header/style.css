@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Dosis:wght@200;700&family=Poppins&display=swap');
 
-.head__container {
-    padding: 15px;
+.head {
+    padding: 0px 3px;
     background: #000;
-    display: flex;
-    gap: 300px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
+.head__container {
+    display: flex;
+    gap: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
 .head_logo-content {
-    gap: 10px;
+    gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,86 +30,94 @@
     font-size: 32px;
     font-weight: 500;
     line-height: 1.1;
-    margin-top: 14px;
-    letter-spacing: -1px;
-    font-style: italic;
+    margin-top: 4px;
+    /* letter-spacing: -1px; */
+    /* font-style: italic; */
     font-family: 'Damion', cursive;
 }
 
 
 .head__items {
+    margin-top: -0.5rem;
     display: flex;
-    gap: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .head__itemm {
-    font-weight: 700;
-    color: white;
-    display: inline-block;
-    padding: 15px 15px 20px 30px;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.head__hero {
     margin-top: 1.3rem;
-    font-weight: 700;
-    color: #c79c60;
-    display: inline-block;
-    /* padding: 15px 15px 20px 30px; */
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    width: 120px;
-    height: 45px;
-    background: url('../../assets/images/logo.png') no-repeat, url('../../assets//images/nav-underline.png') no-repeat;
-    background-size: 20px, 70px 13px;
+    /* background: url('../../assets/images/logo.png') no-repeat, url('../../assets//images/nav-underline.png') no-repeat; */
+    background-size: 20px, 74px 17px;
     background-position: 0% 30%, center bottom;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    padding: 15px 15px 20px 30px
 }
 
-.head__special {
-    margin-top: 1.3rem;
-    font-weight: 700;
-    color: #c79c60;
-    display: inline-block;
-    /* padding: 15px 15px 20px 30px; */
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    width: 175px;
-    height: 45px;
-    background: url('../../assets/images/logo.png') no-repeat, url('../../assets//images/nav-underline.png') no-repeat;
-    background-size: 20px, 100px 15px;
-    background-position: 0% 30%, center bottom;
-}
-
-.head__menu {
-    margin-top: 1.3rem;
-    font-weight: 700;
-    color: #c79c60;
-    display: inline-block;
-    /* padding: 15px 15px 20px 30px; */
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    width: 120px;
-    height: 45px;
-    background: url('../../assets/images/logo.png') no-repeat, url('../../assets//images/nav-underline.png') no-repeat;
-    background-size: 20px, 60px 15px;
-    background-position: 0% 30%, center bottom;
-}
-
+.head__hero,
+.head__special,
+.head__menu,
 .head__contact {
     margin-top: 1.3rem;
-    font-weight: 700;
-    color: #c79c60;
-    display: inline-block;
-    /* padding: 15px 15px 20px 30px; */
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    width: 140px;
-    height: 45px;
     background: url('../../assets/images/logo.png') no-repeat, url('../../assets//images/nav-underline.png') no-repeat;
-    background-size: 20px, 80px 15px;
+    background-size: 20px, 74px 17px;
     background-position: 0% 30%, center bottom;
+    color: #c79c60;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    padding: 15px 15px 20px 30px
+}
+
+
+@media screen and (max-width:777px) {
+    .head{
+        width: 100% !important;
+    }
+    .head__container {
+        gap: 140px;
+    }
+ 
+}
+@media screen and (max-width:425px) {
+    .head__container{
+        width: 100%;
+        gap: 0;
+        align-items: center;
+      text-align: start;
+    }
+    .head_logo-content{
+        margin-top: -1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .head__name{
+        margin-top: 4px;
+        margin-left: -29px;
+        padding:  20px;
+        width: 220px;
+    }
+       .head__items{
+        display: none;
+    }
+    .head_menu-icon{
+        display: block;
+        cursor: pointer;
+        color: #c79c60;
+        font-size: 30px;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        background-color: rgba(0,0,0,0.6);
+        padding: 6px 15px;
+        z-index: 1000;
+    }
 }

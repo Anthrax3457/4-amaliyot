@@ -3,14 +3,17 @@ import React, { useState } from 'react'
 import logo from '../../assets/images/logo.png'
 import underline from '../../assets/images/nav-underline.png'
 import Headlogo from '../../assets/images/favicon.ico'
+import { IoMenu } from "react-icons/io5";
 // react-router-dom
 import { Link } from 'react-router-dom'
 // style
 import './style.css'
+import Modal from './modal'
 
 
 const Header = () => {
   const [active, setActive] = useState('hero')
+  const [modal, setModal] = useState(false)
 
   return (
     <section className="head">
@@ -35,10 +38,24 @@ const Header = () => {
             <li className={`${active === 'contact' ? 'head__contact' : 'head__itemm'}`} onClick={() => { setActive('contact') }}>
               <Link className='head__link' to='/contact' >CONTACT</Link>
             </li>
-
           </ul>
+          {modal ?
+            (<div>
+              <button>
+                <p onClick={() => { setModal(false) }} className='head_menu-icon'><IoMenu /></p>
+              </button>
+            </div>
+            ) :
+            (
+              <div>
+                <button>
+                  <p onClick={() => { setModal(true) }} className='head_menu-icon'><IoMenu /></p>
+                </button>
+              </div>
+            )}
         </div>
       </div>
+      {modal ? <Modal /> : ''}
     </section>
   )
 }

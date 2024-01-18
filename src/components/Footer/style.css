@@ -1,23 +1,28 @@
 .footer__container {
     display: grid;
     align-items: center;
-    height: 300px;
+    height: 329px;
     background-color: #302F2F;
 }
 
 .footer-contents {
+    margin-left: 2rem;
     display: flex;
-    gap: 5%;
+    gap: 10rem;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .footer-menu__container {
     width: 140px;
 }
+.about__special{
+    display: flex;
+    gap: 5rem;
+}
 
-.footer__menu-name,
 .footer__about-name,
+.footer__menu-name,
 .footer__social-name {
     color: white;
     font-size: 21px;
@@ -59,7 +64,8 @@
 }
 
 .footer-about__container {
-    width: 400px;
+    width: 350px;
+    text-align: justify;
 
 }
 
@@ -76,11 +82,12 @@
 }
 
 .footer__social-icon {
-    color: black;
-    background-color: #fff;
-    width: 30px;
-    height: 30px;
+    color: #fff;
+    background-color: #505050;
+    width: 50px;
+    padding: 10px;  
     display: flex;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -91,11 +98,54 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 60px;
+    height: 70px;
 }
 
 .copy-text {
-    font-size: 85%;
+    font-size: 76%;
     line-height: 1.42857143;
-    color: #316;
+    color: #334;
+}
+@media screen and (max-width:777px){
+    .footer__container{
+        height: 700px;
+        justify-content: start;
+        padding: 20px 20px 20px 20px ;
+    }
+    .footer-menu__container{
+        gap: 3rem;
+    }
+    .footer-contents{
+        display: grid;
+        gap: 4rem;
+    }
+    .about__special{
+        display: grid;
+        gap: 4rem;
+    }
+    .footer-about__container {
+        width: 680px;
+        text-align: justify;
+    
+    }
+    
+    .footer-social__container {
+        width: 550px;
+    
+    }
+}
+@media screen and (max-width:425px) {
+    .footer-about__container {
+        width: 180px;
+        text-align: justify;
+    
+    }
+    .footer__container{
+        height: 900px;
+    }
+    
+    .footer-social__container {
+        width: 150px;
+    
+    }
 }

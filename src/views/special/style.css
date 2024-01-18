@@ -1,97 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Dosis:wght@200;700&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Damion&family=Dosis:wght@200;700&family=Gideon+Roman&family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Dosis:wght@200;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Damion&family=Dosis:wght@200;700&family=Gideon+Roman&family=Poppins&display=swap');
+
 
 .today__section {
     background-color: #e4e4e4;
-    height: 2800px;
+    height: 2790px;
+    /* padding: 0px 5% 5% 0px; */
 }
 
 .today {
     position: absolute;
-    height: 880px;
+    height: 890px;
     width: 100%;
     background: #282726;
 }
 
 .today__image-container {
     display: flex;
+    gap: 60px;
     align-items: center;
     justify-content: center;
 }
-
-
-
 .today__image {
-    width: 330px;
+    width: 280px;
     vertical-align: middle;
 }
-
 .today__img {
     margin-top: 2%;
     height: 100%;
     width: 70px;
 }
-
 .today__title-content {
     color: #FFF9F0;
-    margin-top: -180px;
-    gap: 30px;
+    margin-top: -130px;
+    gap: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .today__title {
     font-family: 'Damion', cursive;
     font-size: 57px;
 }
-
 .today-text-content {
     display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
 .today__text {
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Gideon Roman', serif;
     font-size: 58px;
     color: #c79c60;
     text-transform: uppercase;
 }
-
 .today__texts {
     color: #949494;
     font-size: 14px;
     text-align: start;
-    width: 650px;
+    width: 620px;
+    text-align: justify;
 }
-
 .today__btn {
     display: grid;
-    margin-left: 13%;
+    margin-left: 14%;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 35px;
     position: absolute;
 }
-
 .today__btn-text {
+    font-size: 15px;
     color: #c79c60;
-    padding: 5.5% 45px;
+    padding: 7% 51px;
     display: grid;
+    font-size: 15px;
+    font-weight: 400;
     position: absolute;
     text-align: center;
     justify-content: centers;
     text-transform: uppercase;
 }
-
 .today__table {
-    margin-top: 50px;
+    margin-top: 65px;
 }
-
 .today__btn:hover .today__btn-text {
     -webkit-transition: all 0.2s ease;
     color: white;
+}
+
+
+@media screen and (max-width:777px) {
+    .today__section {
+        height: 3500px;
+    }
+    .today__image-container{
+        gap: 20px;
+    }
+
+    .today__image {
+        width: 240px;
+        vertical-align: middle;
+    }
+
+    .today__btn {
+        margin-left: 22rem;
+    }
+
+    .today {
+        height: 756px;
+    }
+    .today__title-content{
+        margin-top: -80px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    
+    .today__title-content {
+        margin-top: 80px;
+    }
+    .today__title{
+        width: 200px;
+    }
+    .today__section {
+        height: 5190px;
+    }
+
+    .today__image{
+        display: none;
+    }
+    .today__content{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .today__title{
+        font-size: 40px;
+    }
+    .today__img{
+        margin-top: 2rem;
+        width: 30px;
+    }
+    .today__text{
+        text-align: center;
+        width: 300px;
+    }
+    .today__texts{
+        width: 270px;
+    }
+    .today__btn {
+        margin-left: 4rem;
+    }
 }

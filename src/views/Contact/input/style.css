@@ -55,19 +55,19 @@
     border-radius: 10px;
     width: 450px;
     height: 370px;
-    border: 4px solid white;
+    border: 3px solid white;
 }
 
 .input__btn {
     display: grid;
     justify-content: center;
-    margin-top: 370px;
+    margin-top: 350px;
     position: absolute;
 }
 
 .input__btn-text {
     color: #c79c60;
-    padding: 5.5% 45px;
+    padding: 5.5% 40px;
     display: grid;
     position: absolute;
     text-align: center;
@@ -78,5 +78,39 @@
 
 .input__btn:hover .input__btn-text {
     -webkit-transition: all 0.2s ease;
+    cursor: pointer;
     color: white;
+}
+
+
+@media screen and (max-width:777px) {
+    .inputs__container {
+        display: grid;
+    }
+
+    .inputs__textarea,
+    .inputs__inp {
+        width: 650px;
+    }
+
+    .map__container {
+        width: 650px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .inputs__container {
+        display: grid;
+    }
+
+    .inputs__textarea,
+    .inputs__inp {
+        width: 290px;
+    }
+
+    .map__container {
+        width: 290px;
+        margin-top: 50px;
+    }
 }

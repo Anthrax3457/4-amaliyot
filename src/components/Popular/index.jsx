@@ -20,14 +20,14 @@ const Popular = () => {
         {
             id: 2,
             img: popular2,
-            title: 'americano',
+            title: 'cappuccino',
             text: 'Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.',
             textIcon: 'Order Now'
         },
         {
             id: 3,
             img: popular1,
-            title: 'americano',
+            title: 'mocha',
             text: 'Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.',
             textIcon: 'Order Now'
         }
@@ -35,11 +35,11 @@ const Popular = () => {
     return (
         <section className="popular__section">
             <div className="popular__container">
-                <div className='flex gap-4 justify-center items-center'>
+                <div className='flex gap-4 justify-start md:justify-center items-center'>
                     <img className='w-14 h-14' src={logo} alt="" />
                     <p className="popular__name">Popular Items</p>
                 </div>
-                <hr className="popular__hr" />
+                <hr className="popular__hrr" />
             </div>
             <div className='data'>
                 {data.map((item, index) => {

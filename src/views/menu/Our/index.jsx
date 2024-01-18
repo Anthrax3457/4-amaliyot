@@ -52,7 +52,7 @@ const Our = () => {
     return (
         <div>
             <div className="our__container">
-                <div className='flex gap-4 justify-center items-center'>
+                <div className='flex gap-4 justify-start md:justify-center items-center'>
                     <img className='w-14 h-14' src={logo} alt="" />
                     <p className="our__name">Our Menus</p>
                 </div>
@@ -79,20 +79,26 @@ const Our = () => {
                     {menudata.map((item, index) => {
                         return (
                             <div key={index} className="ourmenudata__container">
-                                <div className='our__image-content'>
-                                    <img className='our__image' src={item.img} alt="" />
-                                </div>
-                                <div className='our__texts'>
-                                    <div className='our__texts-content'>
-                                        <p className='our__title'>{item.title}</p>
-                                        <p className='our__id'>{item.id}</p>
+                                <div className='grid justify-center gap-10 text-center items-center'>
+                                    <div className='our__image-content'>
+                                        <div className='grid justify-center'>
+                                            <img className='our__image' src={item.img} alt="" />
+                                        </div>
                                     </div>
-                                    <p className='our__text '>{item.text}</p>
-                                </div>
-                                <div className='our__sum-container'>
-                                    <div className='our__sum-content'>
-                                        <span className='our__summ'>$</span>
-                                        <p className='our__sum'>{item.sum}</p>
+                                    <div className='our__texts'>
+                                        <div className='our__texts-content'>
+                                            <p className='our__title text-center'>{item.title}</p>
+                                            <p className='our__id'>{item.id}</p>
+                                        </div>
+                                        <p className='our__text '>{item.text}</p>
+                                    </div>
+                                    <div className='grid justify-center'>
+                                        <div className='our__sum-container'>
+                                            <div className='our__sum-content'>
+                                                <span className='our__summ'>$</span>
+                                                <p className='our__sum'>{item.sum}</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

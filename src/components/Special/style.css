@@ -1,11 +1,12 @@
-.special{
+.special {
     margin-top: 90px;
     display: grid;
     justify-content: center;
     align-items: center;
 }
+
 .special__container {
-    gap: 30px;
+    gap: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,31 +22,202 @@
     margin-top: 7px;
     border: none;
     height: 1px;
-    width: 700px;
+    width: 630px;
     background: #c79c60;
 }
-.special__content{
+
+.special__content {
     margin-top: 70px;
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
-.special__imag-content{
+
+.special__imag-content {
     display: grid;
 }
-.special__img-content{
+
+.special__img-content {
+    margin-top: 10px;
     display: flex;
     gap: 30px;
 }
-.special__image{
+
+.special__image {
     border: 9px solid #fff;
 }
-.special__imag{
+
+.one__container {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 336px;
+    background: rgba(0,0,0,0.6);
+    width: 520px;
+    padding: 12px 10px 5px;
+}
+.one__title{
+    margin-bottom:5px;
+    font-size: 24px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    color: white;
+}
+.one__text{
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.two__container {
+    position: absolute;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 120px;
+    background: rgba(0,0,0,0.6);
+    width: 360px;
+    padding: 12px 10px 5px;
+}
+.two__title{
+    margin-bottom:5px;
+    font-size: 24px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    color: white;
+}
+.two__text{
+    width: 293px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.third__container{
+    position: absolute;
+    margin-left:8px;
+    margin-top: 128px;
+    background: rgba(0,0,0,0.6);
+    width: 156px;
+    padding: 12px 10px 5px;
+    position: absolute;
+}
+.third__text{
+    width: 293px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.four__container{
+    position: absolute;
+    margin-left:213px;
+    margin-top: 128px;
+    background: rgba(0,0,0,0.6);
+    width: 156px;
+    padding: 12px 10px 5px;
+    position: absolute;
+}
+.four__text{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.special__imag {
     border: 9px solid #fff;
 }
-.special__img{
+
+.special__img {
     border: 9px solid #fff;
     display: flex;
 }
-.special__imgg{
+
+.special__imgg {
     border: 9px solid #fff;
+}
+@media screen and (max-width:777px) {
+    .special__content{
+        display: grid;
+    }
+    .special__hr{
+        width: 400px;
+    }
+    .special__img-content{
+        margin-top: 20px;
+    }
+    .two__container{
+        margin-top: 123px;
+    }
+    .four__container{
+        margin-top: 122px;
+        margin-left: 211px;
+    }
+    .third__container{
+        margin-top: 122px;
+    }
+
+}
+@media screen and (max-width:777px) {
+    .special__content{
+        display: grid;
+    }
+    .special__container{
+        display: grid;
+        gap: 10px;
+    }
+    .special__hr{
+        width: 280px;
+    }
+    .special__img-content{
+        margin-top: 20px;
+    }
+    .one__container{
+        margin-top: 118px;
+        width: 263px;
+    }
+    .two__container{
+        width: 263px;
+        margin-top:67px;
+    }
+    .two__text{
+        width: 200px;
+    }
+    .four__container{
+        width: 104px;
+        margin-top: 49px;
+        margin-left: 160px;
+    }
+    .four__text{
+        width: 100px;
+    }
+    .third__container{
+        width: 104px;
+        margin-top: 50px;
+    }
+    .third__text{
+        width: 100px;
+    }
+    .special__image{
+        width: 280px;
+    }
+    .special__imag{
+        width: 280px;
+    }
+    .special__imgg{
+        width: 120px;
+        height: 120px;
+    }
+    .special__img{
+        width: 120px;
+        height: 120px;
+    }
+
 }

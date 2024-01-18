@@ -1,43 +1,43 @@
-.popular__section {
+.populars__section {
     margin-top: 15rem;
 }
 
-.popular__data-hr {
+.populars__data-hr {
     border: none;
     height: 1px;
     background-color: #ADADAD;
 }
 
 
-.popular__data-container {
+.populars__data-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.popular__container {
-    gap: 30px;
+.populars__container {
+    gap: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.popular__name {
+.populars__name {
     color: #c79c60;
     font-size: 30px;
     font-family: 'Damion', cursive;
 }
 
-.popular__hr {
+.populars__hr {
     margin-top: 7px;
     border: none;
     height: 1px;
-    width: 700px;
+    width: 630px;
     background: #c79c60;
 }
 
-.data {
+.datas {
     margin-top: 5rem;
     display: grid;
     gap: 30px;
@@ -46,7 +46,7 @@
     align-items: center;
 }
 
-.popular__data-content {
+.populars__data-content {
     background: #fff;
     width: 286px;
     display: grid;
@@ -55,21 +55,21 @@
     text-align: center;
 }
 
-.popular__data-title::first-letter {
+.populars__data-title::first-letter {
     font-weight: 700;
     color: #ADADAD;
     font-size: 50px;
     font-family: 'Damion', cursive;
 }
 
-.popular__data-title {
+.populars__data-title {
     font-weight: 500;
     color: #ADADAD;
     font-size: 35px;
     font-family: 'Damion', cursive;
 }
 
-.popular__data-text {
+.populars__data-text {
     padding: 19px 0px 60px 0px;
     color: #333;
     letter-spacing: -0.30px;
@@ -77,7 +77,7 @@
     width: 220px;
 }
 
-.data__icon-bg {
+.datas__icon-bg {
     margin-top: -4rem;
     display: grid;
     justify-content: center;
@@ -88,7 +88,7 @@
     height: 100px;
 }
 
-.data__icon-text {
+.datas__icon-text {
     text-align: center;
     font-weight: 500;
     color: #ADADAD;
@@ -103,29 +103,63 @@
     transition: all 0.3s ease;
 }
 
-.popular__data-container:hover {
+.populars__data-container:hover {
     .popular__data-content {
         box-shadow: 0px 11px 6px 0px rgba(153, 153, 153, 0.75);
         -webkit-box-shadow: 0px 11px 6px 0px rgba(153, 153, 153, 0.75);
         -moz-box-shadow: 0px 11px 6px 0px rgba(153, 153, 153, 0.75);
     }
 
-    .popular__data-title::first-letter {
+    .populars__data-title::first-letter {
         color: #c79c60;
     }
 
-    .popular__data-hr {
+    .populars__data-hr {
         border: none;
         height: 1px;
         background-color: #c79c60;
     }
 
-    .popular__data-title {
+    .populars__data-title {
         color: #c79c60;
     }
 
-    .data__icon-text {
+    .datas__icon-text {
         border: 2px solid #c79c60;
         color: #c79c60;
+    }
+}
+    @media screen and (max-width:777px) {
+        .datas{
+            display: grid;
+            padding:0px 50px;
+            gap: 20px;
+            justify-content: space-between;
+            grid-template-columns: auto auto;
+        }
+        .populars__hr{
+            width: 450px;
+        }
+       
+    }
+
+    
+@media screen and (max-width:425px) {
+    .datas{
+        display: grid;
+        justify-content: center;
+        gap: 40px;
+        grid-template-columns: auto ;
+    }
+    .populars__hr{
+        width: 280px;
+    }
+    .populars__name{
+        display: grid;
+        justify-content: start;
+    }
+    .populars__container{
+        display: grid;
+        gap: 50px;
     }
 }

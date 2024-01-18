@@ -17,7 +17,7 @@ const Home = () => {
       <div className='home'>
         <div className='home__container'>
           <div className='home__image-container'>
-            <img className='home__image' src={HomeImage} alt="" />
+            <img className='home__imagee' src={HomeImage} alt="" />
             <img className='home__image' src={HomeImage} alt="" />
             <img className='home__image' src={HomeImage} alt="" />
           </div>
@@ -29,8 +29,10 @@ const Home = () => {
             </div>
             <div className='home-text-content'>
               <p className='home__text'>CAFE HOUSE</p>
-              <p className='home__texts'>Cafe House template is a mobile-friendly responsive <span className='text-[#c79c60]'>Bootstrap v3.3.5</span> layout by <span className='text-[#c79c60]'>templatemo.</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-              </p>
+              <div className='grid justify-center text-start'>
+                <p className='home__texts'>Cafe House template is a mobile-friendly responsive <span className='text-[#c79c60]'>Bootstrap v3.3.5</span> layout by <span className='text-[#c79c60]'>templatemo.</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                </p>
+              </div>
               <div>
                 <div className='home__btn'>
                   <p className='home__btn-text'>Deatlis</p>
@@ -44,9 +46,9 @@ const Home = () => {
           </div>
         </div>
         <GCard />
-        <Popular/>
-        <Special/>
-        <Daily/>
+        <Popular />
+        <Special />
+        <Daily />
       </div>
     </section>
   )

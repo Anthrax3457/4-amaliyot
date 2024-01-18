@@ -11,7 +11,7 @@ const Daily = () => {
   return (
     <div className='daily'>
       <div className="daily__container">
-        <div className='flex gap-4 justify-center items-center'>
+        <div className='flex gap-4 justify-start md:justify-center items-center'>
           <img className='w-14 h-14' src={logo} alt="" />
           <p className="daily__name"> Daily Menu</p>
         </div>

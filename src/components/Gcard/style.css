@@ -1,5 +1,5 @@
 .GCard {
-    margin-top: 100px;
+    margin-top: 10px;
     display: flex;
     gap: 60px;
     justify-content: center;
@@ -20,9 +20,13 @@
 }
 
 .gcard__texts {
-    color: #333333;
-    font-size: 15px;
-    width: 700px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.3;
+    font-weight: lighter;
+    color: #444;
+    font-size: 10px;
+    text-align: justify;
+    width: 400px;
 }
 
 .gcard__btn {
@@ -33,12 +37,14 @@
 }
 
 .gcard__btn-text {
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 13px;
     color: #c79c60;
-    padding: 5.5% 40px;
     display: grid;
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
-    justify-content: centers;
+    justify-content: center;
     text-transform: uppercase;
 }
 
@@ -48,8 +54,42 @@
     color: white;
 }
 
-.gcard__imeg{
-    margin-top: -50px;
+.Gcard__image-content {
+    display: grid;
+    justify-content: center;
+}
+
+.gcard__img {
+    margin-top: -3px;
+}
+
+.gcard__imeg {
+    margin-top: -80px;
     border: 9px solid white;
     border-radius: 50%;
+}
+
+@media screen and (max-width:777px) {
+    .GCard{
+        gap: 40px;
+    }
+    .gcard__texts {
+        width: 500px !important;
+    }
+}
+@media screen and (max-width:425px) {
+    .GCard{
+        display: grid;
+        margin-bottom: 300px;
+    }
+    .gcard__texts {
+        width: 300px !important;
+    }
+    .Gcard__image-content{
+        position: absolute;
+        display: grid !important;
+        justify-content: start;
+        margin-top: 700px;
+        margin-left: -12rem;
+    }
 }

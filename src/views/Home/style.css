@@ -5,6 +5,7 @@
 .home__section {
     background-color: #e4e4e4;
     height: 3200px;
+    /* padding: 0px 5% 5% 0px; */
 }
 
 .home {
@@ -16,16 +17,21 @@
 
 .home__image-container {
     display: flex;
+    gap: 60px;
     align-items: center;
     justify-content: center;
 }
 
-
-
 .home__image {
-    width: 330px;
+    width: 280px;
     vertical-align: middle;
 }
+
+.home__imagee {
+    width: 280px;
+    vertical-align: middle;
+}
+
 
 .home__img {
     margin-top: 2%;
@@ -35,8 +41,8 @@
 
 .home__title-content {
     color: #FFF9F0;
-    margin-top: -180px;
-    gap: 30px;
+    margin-top: -130px;
+    gap: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +50,7 @@
 
 .home__title {
     font-family: 'Damion', cursive;
-    font-size: 62px;
+    font-size: 57px;
 }
 
 .home-text-content {
@@ -67,33 +73,98 @@
     font-size: 14px;
     text-align: start;
     width: 620px;
+    text-align: justify;
 }
 
 .home__btn {
     display: grid;
-    margin-left: 15%;
+    margin-left: 14%;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 35px;
     position: absolute;
 }
 
 .home__btn-text {
     color: #c79c60;
-    padding: 5.5% 70px;
+    padding: 5.5% 66px;
     display: grid;
+    font-size: 15px;
+    font-weight: 400;
     position: absolute;
     text-align: center;
     justify-content: centers;
     text-transform: uppercase;
 }
 
-.home__btn-img {}
-
 .home__table {
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 .home__btn:hover .home__btn-text {
     -webkit-transition: all 0.2s ease;
     color: white;
+}
+
+@media screen and (max-width:777px) {
+    .home__section {
+        height: 4430px;
+    }
+
+    .home__image-container {
+        gap: 20px;
+    }
+
+    .home__image {
+        width: 240px;
+        vertical-align: middle;
+    }
+    .home__imagee {
+        width: 240px;
+        vertical-align: middle;
+    }
+
+    .home__btn {
+        margin-left: 22rem;
+    }
+
+    .home {
+        height: 756px;
+    }
+
+    .home__title-content {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .home__section {
+        height: 4980px;
+    }
+
+    .home__image{
+        display: none;
+    }
+    .home__content{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .home__title{
+        font-size: 40px;
+    }
+    .home__img{
+        margin-top: 2rem;
+        width: 30px;
+    }
+    .home__text{
+        text-align: center;
+        width: 300px;
+    }
+    .home__texts{
+        width: 270px;
+    }
+    .home__btn {
+        margin-left: 4rem;
+    }
 }

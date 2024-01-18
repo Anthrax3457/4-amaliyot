@@ -28,8 +28,10 @@ const Menu = () => {
             </div>
             <div className='menu-text-content'>
               <p className='menu__text'>CAFE HOUSE</p>
-              <p className='menu__texts'>Cafe House template is a mobile-friendly responsive <span className='text-[#c79c60]'>Bootstrap v3.3.5</span> layout by <span className='text-[#c79c60]'>templatemo.</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-              </p>
+              <div className='grid justify-center'>
+                <p className='menu__texts'>Cafe House template is a mobile-friendly responsive <span className='text-[#c79c60]'>Bootstrap v3.3.5</span> layout by <span className='text-[#c79c60]'>templatemo.</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                </p>
+              </div>
               <div>
                 <div className='menu__btn'>
                   <p className='menu__btn-text'>READ MORE</p>
@@ -43,7 +45,7 @@ const Menu = () => {
           </div>
         </div>
         <GCard />
-        <Our/>
+        <Our />
       </div>
     </section>
   )

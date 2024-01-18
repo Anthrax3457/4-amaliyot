@@ -5,7 +5,7 @@
 }
 
 .daily__container {
-    gap: 60px;
+    gap:70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
 
 .daily__content {
     margin-top: 60px;
-    gap: 60px;
+    gap: 90px;
     justify-content: center;
     display: flex;
 }
@@ -28,7 +28,7 @@
     margin-top: 7px;
     border: none;
     height: 1px;
-    width: 700px;
+    width: 670px;
     background: #c79c60;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .daily__texts {
-    margin-left: 9%;
+    margin-left: 7%;
     margin-top: 4%;
 }
 
@@ -65,8 +65,9 @@
 }
 
 .daily__btn-text {
+    font-size: 15px;
     color: #c79c60;
-    padding: 5.5% 40px;
+    padding: 5.9% 50px;
     display: grid;
     position: absolute;
     text-align: center;
@@ -84,4 +85,36 @@
     margin-top: -50px;
     border: 9px solid white;
     border-radius: 50%;
+}
+@media screen and (max-width:777px) {
+    .daily__hr{
+        width: 460px;
+    }
+    .daily__container{
+        gap: 40px;
+    }
+    .daily__content{
+        display: grid;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .daily__hr{
+        width: 300px;
+    }
+    .daily__container{
+        width: 300px !important;
+        display: grid;
+        gap: 20px;
+    }
+    .daily__content{
+        width: 300px;
+        padding: 0px 50px;
+        display: grid;
+        justify-content: center;
+    }
+    .daily__title{
+        width: 300px;
+    }
 }

@@ -28,10 +28,12 @@ const Special = () => {
             </div>
             <div className='today-text-content'>
               <p className='today__text'>CAFE HOUSE</p>
-              <p className='today__texts'>
-                Cafe House template is a <span className='text-[#c79c60]'>mobile-friendly</span> responsive Bootstrap v3.3.5 layout by <span className='text-[#c79c60]'>
-                  templatemo.</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-              </p>
+              <div className='grid justify-center'>
+                <p className='today__texts'>
+                  Cafe House template is a <span className='text-[#c79c60]'>mobile-friendly</span> responsive Bootstrap v3.3.5 layout by <span className='text-[#c79c60]'>
+                    templatemo.</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                </p>
+              </div>
               <div>
                 <div className='today__btn'>
                   <p className='today__btn-text'>READ MORE</p>

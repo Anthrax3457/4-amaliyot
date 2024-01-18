@@ -2,58 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Damion&family=Dosis:wght@200;700&family=Gideon+Roman&family=Poppins&display=swap');
 
 
+
 .menu__section {
     background-color: #e4e4e4;
-    height: 2700px;
+    height: 2590px;
+    /* padding: 0px 5% 5% 0px; */
 }
 
 .menu {
     position: absolute;
-    height: 880px;
+    height: 890px;
     width: 100%;
     background: #282726;
 }
 
 .menu__image-container {
     display: flex;
+    gap: 60px;
     align-items: center;
     justify-content: center;
 }
-
-
-
 .menu__image {
-    width: 330px;
+    width: 280px;
     vertical-align: middle;
 }
-
 .menu__img {
     margin-top: 2%;
     height: 100%;
     width: 70px;
 }
-
 .menu__title-content {
     color: #FFF9F0;
-    margin-top: -180px;
-    gap: 30px;
+    margin-top: -130px;
+    gap: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .menu__title {
     font-family: 'Damion', cursive;
-    font-size: 62px;
+    font-size: 57px;
 }
-
 .menu-text-content {
     display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
 .menu__text {
     font-weight: 400;
     font-family: 'Gideon Roman', serif;
@@ -61,38 +56,102 @@
     color: #c79c60;
     text-transform: uppercase;
 }
-
 .menu__texts {
     color: #949494;
     font-size: 14px;
     text-align: start;
     width: 620px;
+    text-align: justify;
 }
-
 .menu__btn {
     display: grid;
-    margin-left: 13%;
+    margin-left: 14%;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 35px;
     position: absolute;
 }
-
 .menu__btn-text {
+    font-size: 15px;
     color: #c79c60;
-    padding: 5.5% 45px;
+    padding: 7% 51px;
     display: grid;
+    font-size: 15px;
+    font-weight: 400;
     position: absolute;
     text-align: center;
     justify-content: centers;
     text-transform: uppercase;
 }
-
-
 .menu__table {
-    margin-top: 50px;
+    margin-top: 65px;
 }
-
 .menu__btn:hover .menu__btn-text {
     -webkit-transition: all 0.2s ease;
     color: white;
+}
+
+
+@media screen and (max-width:777px) {
+    .menu__section {
+        height: 2910px;
+    }
+    .menu__image-container{
+        gap: 20px;
+    }
+
+    .menu__image {
+        width: 240px;
+        vertical-align: middle;
+    }
+
+    .menu__btn {
+        margin-left: 22rem;
+    }
+
+    .menu {
+        height: 756px;
+    }
+    .menu__title-content{
+        margin-top: -80px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .menu__title-content {
+        margin-top: 80px;
+    }
+    .menu__title{
+        width: 200px;
+    }
+    .menu__section {
+        height: 4350px;
+    }
+
+    .menu__image{
+        display: none;
+    }
+    .menu__content{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .menu__title{
+        font-size: 40px;
+    }
+    .menu__img{
+        margin-top: 2rem;
+        width: 30px;
+    }
+    .menu__text{
+        text-align: center;
+        width: 300px;
+    }
+    .menu__texts{
+        width: 270px;
+    }
+    .menu__btn {
+        margin-left: 4rem;
+    }
 }
